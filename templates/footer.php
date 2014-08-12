@@ -4,29 +4,26 @@
       <div class="row sidebar-footer">
       	<?php dynamic_sidebar('sidebar-footer'); ?>
     </div>
-    <div class="row footer-nav">  
-        <?php
-     if (has_nav_menu('footer_navigation')) :
-       wp_nav_menu(array('theme_location' => 'footer_navigation', 'menu_class' => ''));
-     endif;
-  ?>
+    <div class="row">
+      <div class="col-s-6 footer-nav mail-inline">
+          Sing Up For Our Newsletter
+      </div>
+      <div id="social" class="col-sm-6 social-nav">
+    <?php
+       if (has_nav_menu('social_navigation')) :
+         wp_nav_menu(array('theme_location' => 'social_navigation', 'menu_class' => ''));
+       endif;
+    ?>
+          <p class="credits"><a href="http://12southmusic.com/" target="_blank">built by 12SM</a></p>
     </div>
-         
-      <div id="social" class="row social-nav">
-  <?php
-     if (has_nav_menu('social_navigation')) :
-       wp_nav_menu(array('theme_location' => 'social_navigation', 'menu_class' => ''));
-     endif;
-  ?>
   </div>
-      <p class="credits">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>  |  <a href="http://12southmusic.com/" target="_blank">built by 12SM</a></p>
     </div>
   </div>
 </footer>
 
 <?php wp_footer(); ?>
 
-<!-- Begin 12SM Network Analytics <!-->   
+<!-- Begin 12SM Network Analytics <!-->
   <script type="text/javascript">
 	var _gaq = _gaq || [];
   	_gaq.push(['_setAccount', 'UA-27814560-1']);
@@ -39,4 +36,4 @@
 	  	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 	  	})();
 	</script>
-  <!-- End 12SM Network Analytics <!--> 
+  <!-- End 12SM Network Analytics <!-->
