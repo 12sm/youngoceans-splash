@@ -1,4 +1,4 @@
-<?php if(!is_front_page()){ get_template_part('templates/head'); } ?>
+<?php  get_template_part('templates/head'); ?>
 <body <?php body_class(); ?>>
 
   <!--[if lt IE 8]>
@@ -8,7 +8,7 @@
   <![endif]-->
 
   <?php
-    do_action('get_header');
+    if(!is_front_page()){ do_action('get_header'); }
     // Use Bootstrap's navbar if enabled in config.php
     if (current_theme_supports('bootstrap-top-navbar')) {
       get_template_part('templates/header-top-navbar');
