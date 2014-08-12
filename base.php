@@ -1,4 +1,4 @@
-<?php if(!is_front())<?php get_template_part('templates/head'); endif ?>
+<?php if(!is_front()) get_template_part('templates/head'); endif ?>
 <body <?php body_class(); ?>>
 
   <!--[if lt IE 8]>
