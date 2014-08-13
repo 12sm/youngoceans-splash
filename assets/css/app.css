@@ -19,7 +19,7 @@ body { }
 
 div.navbar-header {
 margin: 0 auto!important;
-width: 75%;
+width: 50%;
 float: none;
 }
 
@@ -58,7 +58,7 @@ float: none;
 .hentry time { }
 .hentry .byline { }
 .hentry .entry-content { }
-.hentry footer { }
+.hentry footer { background: rgba(0,0,0, .5); }
 
 
 
