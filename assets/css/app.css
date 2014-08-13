@@ -17,7 +17,11 @@ body { }
 
 .banner {background: rgba(0,0,0, .5); }
 
-
+div.navbar-header {
+margin: 0 auto!important;
+width: 75%;
+float: none;
+}
 
 /* ==========================================================================
    Content
