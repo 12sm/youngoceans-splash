@@ -58,7 +58,7 @@ float: none;
 .hentry time { }
 .hentry .byline { }
 .hentry .entry-content { }
-.hentry footer { background: rgba(0,0,0, .5); }
+.hentry footer {  }
 
 
 
@@ -66,7 +66,7 @@ float: none;
    Footer
    ========================================================================== */
 
-.content-info { }
+.content-info { background: rgba(0,0,0, .5); }
 
 #social ul {margin:0px; padding:0px; list-style: none;}
 #social li {margin:0px; padding: 0px list-style:none; display: block; float:left;}
