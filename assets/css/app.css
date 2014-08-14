@@ -36,10 +36,10 @@ a, a i{
 }
 a:hover, a i:hover{
    color: #99B6B8;
-   transition: color ease .5s;
-   -webkit-transition: color ease .5s;
-   -moz-transition: color ease .5s;
-   -o-transition: color ease .5s;
+   transition: color ease .3s;
+   -webkit-transition: color ease .3s;
+   -moz-transition: color ease .3s;
+   -o-transition: color ease .3s;
 }
 .col {margin:0 1%;}
 /* ==========================================================================
@@ -74,13 +74,25 @@ float: none;
 /* Gallery Shortcode */
 .gallery-row { padding: 15px 0; }
 
-
+.btn.btn-click:hover{
+ color: #99B6B8;
+   transition: color ease .3s;
+   -webkit-transition: color ease .3s;
+   -moz-transition: color ease .3s;
+   -o-transition: color ease .3s;
+border-color: #99B6B8;
+transition: border-color ease .3s;
+   -webkit-transition: border-color ease .3s;
+   -moz-transition: border-color ease .3s;
+   -o-transition: border-color ease .3s;
+}
 .btn.btn-click {
 font-family: 'proxima-nova';
 font-weight: bolder;
 text-transform: uppercase;
 color: #fff;
 padding: 5px;
+border-color: rgba(255,255,255, .2);
 border: rgba(255,255,255, .2) solid 4px;
 border-radius: 0px;
 border-left-width: 6px;
