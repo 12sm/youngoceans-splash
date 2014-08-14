@@ -31,6 +31,7 @@ h4{
    vertical-align: text-bottom;
    display: inline-block;
 }
+.col {margin:0 1%;}
 /* ==========================================================================
    Header
    ========================================================================== */
@@ -141,7 +142,9 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm) { }
+@media (min-width: 768px) {
+.col {margin:0 10%;}
+ }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: @screen-md) { }
