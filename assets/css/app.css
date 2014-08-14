@@ -34,6 +34,13 @@ h4{
 a, a i{
    color: #fff;
 }
+a:hover, a i:hover{
+   color: #D2E6E4
+   transition: color ease .5s;
+   -webkit-transition: color ease .5s;
+   -moz-transition: color ease .5s;
+   -o-transition: color ease .5s;
+}
 .col {margin:0 1%;}
 /* ==========================================================================
    Header
