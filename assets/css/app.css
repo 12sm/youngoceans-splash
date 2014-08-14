@@ -30,7 +30,6 @@ h4{
    color: #fff;
    vertical-align: text-bottom;
    display: inline-block;
-   float: right;
 }
 /* ==========================================================================
    Header
@@ -118,9 +117,10 @@ height: 32px;
 overflow: hidden;
 display: inline-block;
 margin-top: 10px;
-float: right;
 }
-
+.floatright{
+   float: right;
+}
 /* ==========================================================================
    WordPress Generated Classes
    See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
