@@ -19,6 +19,7 @@ h1 {
 font-weight: bold;
 color: #fff;
 letter-spacing: 5px;
+font-size: 24px;
 }
 .headline{
    width: 70%;
@@ -52,8 +53,6 @@ header.navbar{
 }
 
 div.navbar-header {
-margin: 0 auto!important;
-width: 50%;
 float: none;
 }
 
@@ -172,6 +171,13 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 .col {margin:0 10%;}
+h1 {
+font-size: 36px;
+}
+div.navbar-header {
+margin: 0 auto!important;
+width: 50%;
+}
  }
 
 /* Medium devices (desktops, 992px and up) */
