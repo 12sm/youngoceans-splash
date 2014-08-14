@@ -13,6 +13,7 @@ body {
 }
 h1,h2,h3,p{
    font-family: 'proxima-nova';
+   -webkit-font-smoothing: antialiased;
 }
 h1 {
 font-weight: bold;
