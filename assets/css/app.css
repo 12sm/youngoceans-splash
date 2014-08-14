@@ -29,6 +29,7 @@ h4{
    font-size: 12px;
    color: #fff;
    vertical-align: text-bottom;
+   display: inline-block;
 }
 /* ==========================================================================
    Header
