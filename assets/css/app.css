@@ -58,16 +58,19 @@ float: none;
 .gallery-row { padding: 15px 0; }
 
 
-.btn.btn-click{
- font-family: 'proxima-nova';
+.btn.btn-click {
+font-family: 'proxima-nova';
 font-weight: bolder;
 text-transform: uppercase;
 color: #fff;
-padding: 10px;
+padding: 5px;
 border: rgba(255,255,255, .2) solid 4px;
 border-radius: 0px;
-width: 75px;
+border-left-width: 6px;
+width: 85px;
 white-space: normal;
+letter-spacing: 3px;
+font-size: 12px;
 }
 .btn-container{
    width: 75px;
