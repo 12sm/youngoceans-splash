@@ -129,7 +129,7 @@ div#social {
 padding-top: 15px;
 }
 #menu-socials,.credits{
-   display: inline-block;
+   display: inline;
 }
 /* ==========================================================================
    WordPress Generated Classes
