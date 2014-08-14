@@ -4,7 +4,9 @@
 			<VIDEO HURRR>
 		</div>
 		<h1 class="headline">PRE-ORDER THE NEW ALBUM MEOW</h1>
-		<a href="#" class="btn btn-click">Click Here</a>
+		<div class="btn-container">
+			<a href="#" class="btn btn-click">Click Here</a>
+		</div>
 	</div>
 </div>
 

@@ -59,13 +59,19 @@ float: none;
 
 
 .btn.btn-click{
-   font-family: 'proxima-nova';
-   font-weight: semibold;
-   text-transform: uppercase;
-   color: #fff;
-   padding: 10px;
-   border: rgba(255,255,255, .2) solid 4px;
-   border-radius: 0px;
+ font-family: 'proxima-nova';
+font-weight: bolder;
+text-transform: uppercase;
+color: #fff;
+padding: 10px;
+border: rgba(255,255,255, .2) solid 4px;
+border-radius: 0px;
+width: 75px;
+white-space: normal;
+}
+.btn-container{
+   width: 75px;
+   margin: 0 auto;
 }
 /* ==========================================================================
    Sidebar
