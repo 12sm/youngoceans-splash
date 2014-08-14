@@ -19,6 +19,9 @@ body { }
    ========================================================================== */
 
 .banner {background: rgba(0,0,0, .5); }
+div.navbar{
+   margin-bottom: 0px;
+}
 
 div.navbar-header {
 margin: 0 auto!important;
