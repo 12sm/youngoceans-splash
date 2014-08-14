@@ -11,7 +11,7 @@ body {
    background: url(../img/bg.jpg) no-repeat center;
    background-size: cover;
 }
-h1,h2,h3,p,a{
+h1,h2,h3,h4,p,a{
    font-family: 'proxima-nova';
    -webkit-font-smoothing: antialiased;
 }
@@ -28,6 +28,7 @@ letter-spacing: 5px;
 h4{
    font-size: 12px;
    color: #fff;
+   vertical-align: text-bottom;
 }
 /* ==========================================================================
    Header
@@ -113,6 +114,8 @@ font-size: 12px;
 .topspin-widget.topspin-widget-email-for-media {
 height: 32px;
 overflow: hidden;
+display: inline-block;
+margin-top: 10px;
 }
 
 /* ==========================================================================
