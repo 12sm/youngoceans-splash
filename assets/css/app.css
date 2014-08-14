@@ -18,7 +18,7 @@ body { }
    Header
    ========================================================================== */
 
-.banner {background: rgba(0,0,0, .5); }
+.banner {background: rgba(0,0,0, .5); border:transparent; }
 header.navbar{
    margin-bottom: 0px;
 }
