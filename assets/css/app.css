@@ -11,8 +11,19 @@ body {
    background: url(../img/bg.jpg) no-repeat center;
    background-size: cover;
 }
-
-
+h1,h2,h3,p{
+   font-family: 'proxima-nova';
+}
+h1 {
+font-weight: bold;
+color: #fff;
+letter-spacing: 5px;
+}
+.headline{
+   width: 70%;
+   text-align: center;
+   margin: 0 auto;
+}
 /* ==========================================================================
    Header
    ========================================================================== */
