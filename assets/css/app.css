@@ -11,7 +11,7 @@ body {
    background: url(../img/bg.jpg) no-repeat center;
    background-size: cover;
 }
-h1,h2,h3,p{
+h1,h2,h3,p,a{
    font-family: 'proxima-nova';
    -webkit-font-smoothing: antialiased;
 }
@@ -58,7 +58,12 @@ float: none;
 .gallery-row { padding: 15px 0; }
 
 
+.btn.btn-click{
+   color: #fff;
+   padding: 10px;
+   border: rgba(255,255,255, .2) solid 2px 2px 2px 3px;
 
+}
 /* ==========================================================================
    Sidebar
    ========================================================================== */
