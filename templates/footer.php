@@ -12,12 +12,14 @@
         </div>
       </div>
       <div id="social" class="col-sm-6 social-nav">
+          <div class="floatright">
     <?php
        if (has_nav_menu('social_navigation')) :
          wp_nav_menu(array('theme_location' => 'social_navigation', 'menu_class' => ''));
        endif;
     ?>
           <p class="credits"><a href="http://12southmusic.com/" target="_blank">built by 12SM</a></p>
+          </div>
     </div>
   </div>
     </div>

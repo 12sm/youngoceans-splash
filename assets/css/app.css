@@ -125,6 +125,9 @@ margin-top: 10px;
 .floatright{
    float: right;
 }
+div#social {
+padding-top: 15px;
+}
 /* ==========================================================================
    WordPress Generated Classes
    See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
