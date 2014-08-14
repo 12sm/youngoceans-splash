@@ -31,6 +31,9 @@ h4{
    vertical-align: text-bottom;
    display: inline-block;
 }
+a, a i{
+   color: #fff;
+}
 .col {margin:0 1%;}
 /* ==========================================================================
    Header
