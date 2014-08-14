@@ -106,7 +106,10 @@ font-size: 12px;
 #social li {margin:0px; padding: 0px list-style:none; display: block; float:left;}
 #social li a {padding: 10px;}
 
-
+.topspin-widget.topspin-widget-email-for-media {
+height: 32px;
+overflow: hidden;
+}
 
 /* ==========================================================================
    WordPress Generated Classes
