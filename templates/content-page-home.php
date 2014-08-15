@@ -1,7 +1,7 @@
 <div class="row">
 	<div class='col-sm-8 col-sm-offset-2'>
 		<div class="fit-vids">
-			<VIDEO HURRR>
+			<img src="/wp-content/themes/splash/assets/img/" class="img-responsive">
 		</div>
 		<h1 class="headline">PRE-ORDER THE NEW ALBUM MEOW</h1>
 		<div class="btn-container">
@@ -9,4 +9,3 @@
 		</div>
 	</div>
 </div>
-
