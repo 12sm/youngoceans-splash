@@ -93,21 +93,24 @@ transition: border-color ease .3s;
 }
 .btn.btn-click {
 font-family: 'proxima-nova';
-font-weight: 300;
+font-weight: 500;
 color: #fff;
-padding: 5px;
+padding: 10px 10px;
 border-color: rgba(255,255,255, .4);
 border: rgba(255,255,255, .4) solid 2px;
 border-radius: 0px;
-width: 85px;
 white-space: normal;
-letter-spacing: 3px;
-font-size: 12px;
+letter-spacing: 6px;
+font-size: 14px;
 display: inline-block;
+clear: none;
+white-space: normal;
 }
+
 .btn-container{
-   width: 75px;
    margin: 45px auto;
+   width: 300px;
+   text-align: center;
 }
 /* ==========================================================================
    Sidebar
