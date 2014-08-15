@@ -27,7 +27,6 @@ font-size: 24px;
    margin: 0 auto;
 }
 h4{
-   text-align: center;
    font-size: 12px;
    color: #fff;
    vertical-align: text-bottom;
@@ -150,6 +149,7 @@ display: inline-block;
 margin-top: 10px;
 }
 .floatright{
+   text-align: center;
    float: right;
 }
 div#social {
