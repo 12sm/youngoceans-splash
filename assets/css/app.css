@@ -16,7 +16,7 @@ h1,h2,h3,h4,p,a{
    -webkit-font-smoothing: antialiased;
 }
 h1 {
-font-weight: bold;
+font-weight: 100;
 color: #fff;
 letter-spacing: 5px;
 font-size: 24px;
@@ -180,7 +180,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 @media (min-width: 768px) {
 .col {margin:0 10%;}
 h1 {
-font-size: 36px;
+font-size: 24px;
 }
 div.navbar-header {
 margin: 0 auto!important;
