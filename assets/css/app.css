@@ -45,6 +45,9 @@ a:hover, a i:hover{
 .center-block{
    margin: 0 auto;
 }
+.img-container{
+   padding: 25px 0;
+}
 .col {margin:0 1%;}
 /* ==========================================================================
    Header
