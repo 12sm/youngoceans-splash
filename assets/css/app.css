@@ -80,12 +80,12 @@ float: none;
 .gallery-row { padding: 15px 0; }
 
 .btn.btn-click:hover{
- color: #99B6B8;
+ color: rgba(255,255,255, 1) ;
    transition: color ease .3s;
    -webkit-transition: color ease .3s;
    -moz-transition: color ease .3s;
    -o-transition: color ease .3s;
-border-color: #99B6B8;
+border-color: rgba(255,255,255, 1) ;
 transition: border-color ease .3s;
    -webkit-transition: border-color ease .3s;
    -moz-transition: border-color ease .3s;
@@ -93,18 +93,17 @@ transition: border-color ease .3s;
 }
 .btn.btn-click {
 font-family: 'proxima-nova';
-font-weight: bolder;
-text-transform: uppercase;
+font-weight: 300;
 color: #fff;
 padding: 5px;
-border-color: rgba(255,255,255, .2);
-border: rgba(255,255,255, .2) solid 4px;
+border-color: rgba(255,255,255, .4);
+border: rgba(255,255,255, .4) solid 2px;
 border-radius: 0px;
-border-left-width: 6px;
 width: 85px;
 white-space: normal;
 letter-spacing: 3px;
 font-size: 12px;
+display: inline-block;
 }
 .btn-container{
    width: 75px;
