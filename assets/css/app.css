@@ -202,6 +202,9 @@ width: 100%;
 .content{
 padding: 2% 0px;
 }
+div#social {
+padding-top: 15px;
+}
  }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -209,7 +212,5 @@ padding: 2% 0px;
 .content{
    padding: 5% 0px;
 }
-div#social {
-padding-top: 15px;
-}
+
  }
