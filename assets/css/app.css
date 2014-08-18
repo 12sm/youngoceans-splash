@@ -190,4 +190,10 @@ width: 50%;
 @media (min-width: @screen-md) { }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg) { }
+@media (min-width: 1200px) {
+footer.content-info.container-fluid {
+position: absolute;
+bottom: 0;
+width: 100%;
+}
+ }
