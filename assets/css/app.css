@@ -215,6 +215,9 @@ and (max-device-width : 1024px)  {
 .topspin-widget.topspin-widget-email-for-media {
 height: 50px;
 }
+div#social {
+padding-top: 30px;
+}
 }
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px ) {
