@@ -30,6 +30,13 @@ var Roots = {
   home: {
     init: function() {
       // JavaScript to be fired on the home page
+      function windowH() {
+   var wH = $(window).height();
+
+   $('.home').css({height: wH});
+}
+
+windowH();
     }
   },
   // About us page, note the change from about-us to about_us.
