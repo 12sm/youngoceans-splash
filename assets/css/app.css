@@ -188,7 +188,7 @@ width: 50%;
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-.wrap.container-fluid {
+.content{
 padding: 2% 0px;
 }
  }
