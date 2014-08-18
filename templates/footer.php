@@ -1,5 +1,5 @@
 <footer class="content-info container-fluid" role="contentinfo">
-      <div class="row sidebar-footer">
+      <div class="row col sidebar-footer">
       	<div class="col-sm-6 footer-nav mail-inline">
         <div class="floatright">
            <h4>Sign Up For Our Newsletter</h4>
