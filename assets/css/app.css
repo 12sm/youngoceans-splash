@@ -148,7 +148,7 @@ margin-top: 10px;
    text-align: center;
 }
 div#social {
-padding-top: 15px;
+padding-top: 30px;
 }
 #menu-socials,.credits{
    display: inline;
@@ -209,5 +209,7 @@ padding: 2% 0px;
 .content{
    padding: 5% 0px;
 }
-
+div#social {
+padding-top: 15px;
+}
  }
