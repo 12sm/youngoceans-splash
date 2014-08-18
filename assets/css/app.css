@@ -187,7 +187,15 @@ width: 50%;
  }
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) { }
+@media (min-width: 992px) {
+.wrap.container-fluid {
+padding: 2% 0px;
+}
+ }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px ) { }
+@media (min-width: 1200px ) {
+.wrap{
+   padding: 5% 0px;
+}
+ }
