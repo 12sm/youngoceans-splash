@@ -146,7 +146,6 @@ margin-top: 10px;
 }
 .floatright{
    text-align: center;
-   float: right;
 }
 div#social {
 padding-top: 15px;
@@ -186,6 +185,10 @@ width: 50%;
 .topspin-widget.topspin-widget-email-for-media {
 height: 32px;
 }
+.floatright{
+   text-align: center;
+   float: right;
+   }
  }
 
 /* Medium devices (desktops, 992px and up) */
