@@ -1,6 +1,4 @@
 <footer class="content-info container-fluid" role="contentinfo">
-  <div class="row col">
-    <div class="col-lg-12">
       <div class="row sidebar-footer">
       	<div class="col-sm-6 footer-nav mail-inline">
         <div class="floatright">
@@ -17,12 +15,8 @@
     ?>
           <p class="credits"><a href="http://12southmusic.com/" target="_blank">built by 12SM</a></p>
           </div>
+      </div>
     </div>
-    </div>
-    <div class="row">
-  </div>
-    </div>
-  </div>
 </footer>
 
 <?php wp_footer(); ?>
