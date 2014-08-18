@@ -184,9 +184,7 @@ div.navbar-header {
 margin: 0 auto!important;
 width: 50%;
 }
-.topspin-widget.topspin-widget-email-for-media {
-height: 32px;
-}
+
 .floatright{
    text-align: center;
    float: right;
@@ -206,6 +204,9 @@ padding: 2% 0px;
 }
 div#social {
 padding-top: 15px;
+}
+.topspin-widget.topspin-widget-email-for-media {
+height: 32px;
 }
  }
 
