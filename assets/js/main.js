@@ -30,10 +30,6 @@ var Roots = {
   home: {
     init: function() {
       // JavaScript to be fired on the home page
-      function windowH() {
-   var wH = $(window).height();
-
-   $('.home').css({height: wH});
 }
 
 windowH();
