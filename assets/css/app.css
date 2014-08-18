@@ -189,6 +189,12 @@ height: 32px;
    text-align: center;
    float: right;
    }
+   footer.content-info.container-fluid {
+position: absolute;
+bottom: 0;
+width: 100%;
+
+}
  }
 
 /* Medium devices (desktops, 992px and up) */
@@ -203,4 +209,5 @@ padding: 2% 0px;
 .content{
    padding: 5% 0px;
 }
+
  }
