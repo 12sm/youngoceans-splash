@@ -23,7 +23,7 @@ var Roots = {
   common: {
     init: function() {
       // JavaScript to be fired on all pages
-      $.backstretch('..assets/img/bg.jpg');
+      $.backstretch('/assets/img/bg.jpg');
     }
   },
   // Home page
