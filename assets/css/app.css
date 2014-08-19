@@ -190,7 +190,7 @@ width: 50%;
    float: right;
    }
    footer.content-info.container-fluid {
-position: absolute;
+position: fixed;
 bottom: 0;
 width: 100%;
 }
