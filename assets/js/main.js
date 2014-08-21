@@ -23,7 +23,7 @@ var Roots = {
   common: {
     init: function() {
       // JavaScript to be fired on all pages
-      $.backstretch('/wp-content/themes/splash/assets/img/bg.jpg');
+      $.backstretch('http://youngoceans.12southdev.com/wp-content/themes/splash/assets/img/bg.jpg');
     }
   },
   // Home page
